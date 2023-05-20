@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+ 
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body{
+  height:100vh;
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  background:radial-gradient(rgb(85, 139, 146),rgb(26, 23, 240));
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+}
+.location,
+.temprature{
+  height:30vh;
+  width: 50%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.temprature{
+  flex-direction: column;
+}
+.degree-section{
+  display: flex;
+  align-items:center;
+  cursor:pointer;
+}
+.degree-section span{
+  margin: 10px;
+  font-size: 10px;
+  color: rgb(0, 128, 26);
+}
+.degree-section h2{
+font-size: 50px;
+}
+
